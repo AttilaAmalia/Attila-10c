@@ -1,0 +1,141 @@
+body {
+background-color:rgba(253, 253, 253, 0.863);
+font-family: Arial, sans-serif;
+color: #121212;
+margin: 20px;
+}
+h1 {
+color: hs(306, 50%, 29%);
+text-align: center;
+}
+background-color::backdrop
+h2 {
+color: #668bb3;
+text-align: left;
+}
+p {
+font-size: 18px;
+text-align: left;
+line-height: 1.5;
+}
+.daftar-produk{
+    display: grid;
+    grid-template-columns:        repeat(auto-fit,
+    minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px
+}
+.produk {
+  background-color: #92b9f3;
+  border: 1 px solid #ddd;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 2px 6px rgba(red, green, blue, alpha);
+}
+.produk img{width: 150px;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.produk h2{
+  font-size: 20px;
+  color: #2c3e50;
+}
+.produk h3 {
+  font-size: 16px;
+  color: #2c3e50;
+}
+.harga {
+  font-weight: bold;
+  color: #27ae60;
+}
+.deskripsi {
+  font-size: 14px;
+  color: #555
+}
+
+.artikel{
+         max-width: 700px;
+         margin: auto;
+         padding: 20px;
+         background-color: #91b8d8;
+         font-family: 'Georgia', serif;
+
+         line-height: 1.8;
+}
+.artikel .penulis {
+            font-style: italic;
+            color: #141414;
+            margin-bottom: 20px;
+}
+
+.artikel .sampul {
+            Width: 180px;
+            float: right;
+            margin: 0 0 20px 20px;
+            border: 1px solid #eda9dd;
+            box-shadow: 2px 2px 6px rgba (0,0,0,0.1);
+}
+.artikel blockquote {
+            font-style: italic;
+            padding-left: 20px;
+            margin: 20px 0;
+            border-left: 4px solid #999;
+            color: #444;
+            background-color: #efecec2b;
+
+}
+
+.btn-kembali {
+            display: inline-block;
+            margin-top: 30px;
+            padding: 10px 16px;
+            background-color: #0066cc;
+            color: white;
+            text-decoration: none;
+            border-radius: 4px;
+}
+
+.btn-kembali:hover {
+           background-color: #004d99;
+}
+
+.formulir {
+            max-width: 600px;
+            margin: auto;
+            padding: 20px;
+            background-color: #fafafa;
+            border-radius: 10px;
+            box-shadow: 0 0 10pxm rgba(0, 0, 0, 1);
+  }
+ 
+form label{
+            display: block;
+            margin-top: 10px;
+            font-weight: bold;
+}
+
+form input,
+form select,
+form textarea {
+                width: 100%;
+                padding: 8px;
+                margin-top: 5px;
+                margin-bottom: 15px;
+                border-radius: 5px;
+                border: 1px solid #ccc;
+}
+
+ form button {
+               background-color: #3498db;
+               color: white;
+               padding: 10px 15px;
+               border: none;
+               border-radius: 5px;
+               cursor: pointer;
+ }
+
+ form button:hover {
+                     background-color: #2980b9;
+ }
