@@ -19,7 +19,7 @@ scale=1.0">
     <a href="event.html">event</a>
 </nav>
 
-<!DOCTYPE html>
+    <!DOCTYPE html>
 <html lang="id">
 <head>
 <meta charset="UTF-8">
@@ -27,208 +27,125 @@ scale=1.0">
 <title>Kontak</title>
 
 <style>
-body {
-    margin: 0;
-    font-family: 'Segoe UI', sans-serif;
-    background: linear-gradient(135deg, #f5f7fa, #e4ecf7);
+
+body{
+    font-family: Arial, sans-serif;
+    background:#f3f4f6;
+    margin:0;
 }
 
-.contact-wrapper {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    padding: 20px;
+.container{
+    width:80%;
+    margin:auto;
+    background:white;
+    padding:40px;
+    margin-top:40px;
+    border-radius:15px;
 }
 
-.contact-box {
-    background: white;
-    width: 100%;
-    max-width: 600px;
-    padding: 50px 40px;
-    border-radius: 20px;
-    box-shadow: 0 15px 40px rgba(0,0,0,0.08);
+h1{
+    text-align:center;
+    margin-bottom:40px;
 }
 
-.contact-box h1 {
-    text-align: center;
-    margin-bottom: 40px;
-    font-weight: 600;
+.kontak{
+    display:flex;
+    justify-content:space-between;
+    gap:40px;
+    margin-bottom:40px;
 }
 
-.form-group {
-    margin-bottom: 20px;
+.info{
+    width:50%;
+    line-height:1.8;
 }
 
-input, textarea {
-    width: 100%;
-    padding: 14px;
-    border-radius: 12px;
-    border: 1px solid #ddd;
-    font-size: 15px;
-    transition: 0.3s;
+.info b{
+    color:#1e73be;
 }
 
-input:focus, textarea:focus {
-    border-color: #4a90e2;
-    outline: none;
+.wa{
+    display:inline-block;
+    margin-top:20px;
+    background:#25D366;
+    color:white;
+    padding:12px 20px;
+    border-radius:8px;
+    text-decoration:none;
 }
 
-button {
-    width: 100%;
-    padding: 14px;
-    border: none;
-    border-radius: 50px;
-    background: #4a90e2;
-    color: white;
-    font-size: 16px;
-    cursor: pointer;
-    transition: 0.3s;
+.map{
+    width:50%;
 }
 
-button:hover {
-    background: #357abd;
+iframe{
+    width:100%;
+    height:250px;
+    border-radius:10px;
+    border:none;
 }
+
+form{
+    margin-top:30px;
+}
+
+input, textarea{
+    width:100%;
+    padding:12px;
+    margin-top:10px;
+    margin-bottom:15px;
+    border-radius:10px;
+    border:1px solid #ddd;
+}
+
+button{
+    width:100%;
+    padding:14px;
+    background:#4f86c6;
+    color:white;
+    border:none;
+    border-radius:30px;
+    font-size:16px;
+}
+
 </style>
 </head>
 
-<body>
-
-<div class="contact-wrapper">
-  <div class="contact-box">
-      <h1>Hubungi Kami</h1>
-
-      <div class="form-group">
-          <input type="text" placeholder="Nama Lengkap">
-      </div>
-
-      <div class="form-group">
-          <input type="email" placeholder="Email">
-      </div>
-
-      <div class="form-group">
-          <textarea rows="5" placeholder="Tulis pesan Anda..."></textarea>
-      </div>
-
-      <button>Kirim Pesan</button>
-  </div>
-</div>
-
-</body>
-</html>
-
-
-<!DOCTYPE html>
-<html lang="id">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Kontak Kami - Attila Bookstore</title>
-
-<style>
-body {
-    font-family: 'Segoe UI', sans-serif;
-    background: #f4f6f9;
-    margin: 0;
-}
-
-.container {
-    width: 90%;
-    max-width: 1100px;
-    margin: 60px auto;
-}
-
-.card {
-    background: white;
-    border-radius: 15px;
-    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
-    padding: 40px;
-}
-
-h1 {
-    text-align: center;
-    margin-bottom: 40px;
-    font-size: 34px;
-}
-
-.content {
-    display: flex;
-    gap: 40px;
-    flex-wrap: wrap;
-}
-
-.info {
-    flex: 1;
-    min-width: 280px;
-}
-
-.info p {
-    font-size: 18px;
-    line-height: 1.8;
-    margin: 10px 0;
-}
-
-.info strong {
-    color: #0077cc;
-}
-
-.map {
-    flex: 1;
-    min-width: 280px;
-}
-
-.map iframe {
-    width: 100%;
-    height: 300px;
-    border: 0;
-    border-radius: 12px;
-}
-
-.wa-btn {
-    display: inline-block;
-    margin-top: 25px;
-    padding: 12px 30px;
-    background: #25D366;
-    color: white;
-    text-decoration: none;
-    border-radius: 8px;
-    font-weight: bold;
-    transition: 0.3s;
-}
-
-.wa-btn:hover {
-    background: #1ebe5d;
-}
-</style>
-
-</head>
 <body>
 
 <div class="container">
-    <div class="card">
-        <h1>Hubungi Kami</h1>
 
-        <div class="content">
-            
-            <div class="info">
-                <p><strong>Nama Toko:</strong> Attila Bookstore</p>
-                <p><strong>Alamat:</strong> Jl. Pendidikan No. 123, Kapasari, Surabaya</p>
-                <p><strong>No. HP:</strong> 0812-3456-7890</p>
-                <p><strong>Email:</strong> attilabookstore@gmail.com</p>
+<h1>Hubungi Kami</h1>
 
-                <a href="https://wa.me/6281234567890" class="wa-btn">
-                    Chat via WhatsApp
-                </a>
-            </div>
+<div class="kontak">
 
-            <div class="map">
-                <iframe 
-                src="https://maps.google.com/maps?q=Kapasari%20Surabaya&z=15&output=embed">
-                </iframe>
-            </div>
+<div class="info">
+<p><b>Nama Toko:</b> Attila Bookstore</p>
+<p><b>Alamat:</b> Jl. Pendidikan No.123, Kapasari, Surabaya</p>
+<p><b>No. HP:</b> 0812-3456-7890</p>
+<p><b>Email:</b> attilabookstore@gmail.com</p>
 
-        </div>
-    </div>
+<a href="#" class="wa">Chat via WhatsApp</a>
+</div>
+
+<div class="map">
+<iframe src="https://maps.google.com/maps?q=surabaya&t=&z=13&ie=UTF8&iwloc=&output=embed"></iframe>
+</div>
+
+</div>
+
+<form>
+
+<input type="text" placeholder="Nama Lengkap">
+
+<input type="email" placeholder="Email">
+
+<textarea rows="5" placeholder="Tulis pesan Anda..."></textarea>
+
+<button>Kirim Pesan</button>
+
+</form>
+
 </div>
 
 </body>
