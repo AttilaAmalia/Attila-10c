@@ -19,80 +19,29 @@ scale=1.0">
     <a href="event.html">event</a>
 </nav>
 
-    <!DOCTYPE html>
-<html lang="id">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Kontak</title>
-
-<style>
-body {
-    font-family: Arial, sans-serif;
-    background: #f4f6fb;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+ .container {
+    width: 320px;
+    margin: 100px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
 }
 
-/* Container utama */
-.container {
-    background: #fff;
-    padding: 25px 30px;
-    width: 350px; /* ukuran pas */
-    border-radius: 12px;
-    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
-}
-
-/* Judul */
-.container h2 {
-    text-align: center;
-    margin-bottom: 20px;
-    color: #333;
-}
-
-/* Label */
-label {
-    display: block;
-    margin-top: 10px;
-    font-size: 14px;
-    color: #555;
-}
-
-/* Input dan textarea */
+/* Input */
 input, textarea {
     width: 100%;
-    padding: 10px;
+    padding: 8px;
     margin-top: 5px;
-    border-radius: 8px;
-    border: 1px solid #ccc;
-    font-size: 14px;
-}
-
-/* Fokus */
-input:focus, textarea:focus {
-    border-color: #6c8cff;
-    outline: none;
+    margin-bottom: 10px;
 }
 
 /* Tombol */
 button {
     width: 100%;
-    margin-top: 15px;
     padding: 10px;
-    border: none;
-    background: #6c8cff;
+    background: blue;
     color: white;
-    border-radius: 8px;
-    font-size: 15px;
-    cursor: pointer;
-    transition: 0.3s;
-}
-
-/* Hover */
-button:hover {
-    background: #4e6cf0;
+    border: none;
 }
 </style>
 
@@ -101,19 +50,13 @@ button:hover {
 <body>
 
 <div class="container">
-    <h2>Hubungi Kami</h2>
+    <h3>Hubungi Kami</h3>
 
     <form>
-        <label for="nama">Nama</label>
-        <input type="text" id="nama" name="nama" placeholder="Masukkan nama" required>
-
-        <label for="email">Email</label>
-        <input type="email" id="email" name="email" placeholder="Masukkan email" required>
-
-        <label for="pesan">Pesan</label>
-        <textarea id="pesan" name="pesan" rows="4" placeholder="Tulis pesan..." required></textarea>
-
-        <button type="submit">Kirim</button>
+        <input type="text" placeholder="Nama">
+        <input type="email" placeholder="Email">
+        <textarea placeholder="Pesan"></textarea>
+        <button>Kirim</button>
     </form>
 </div>
 
