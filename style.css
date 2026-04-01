@@ -325,5 +325,11 @@ footer {
     background: #e8d3b0;
 }
 
-
+body::before {
+    content: "✨ ✦ ✧ ✨";
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    opacity: 0.3;
+}
 
