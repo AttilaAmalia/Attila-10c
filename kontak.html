@@ -37,18 +37,108 @@ scale=1.0">
 </body>
 </html>
 
-<div class="info">
-<p><b>Nama Toko:</b> Attila Bookstore</p>
-<p><b>Alamat:</b> Jl. Pendidikan No.123, Kapasari, Surabaya</p>
-<p><b>No. HP:</b> 0812-3456-7890</p>
-<p><b>Email:</b> attilabookstore@gmail.com</p>
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kontak & Alamat</title>
 
-<a href="#" class="wa">Chat via WhatsApp</a>
+<style>
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f6fb;
+}
+
+/* Container utama */
+.wrapper {
+    width: 700px;
+    margin: 80px auto;
+    display: flex;
+    gap: 20px;
+}
+
+/* Box kiri (alamat) */
+.alamat {
+    width: 45%;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* Box kanan (form) */
+.form {
+    width: 55%;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* Judul */
+h2 {
+    margin-bottom: 15px;
+}
+
+/* Input */
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+/* Tombol */
+button {
+    width: 100%;
+    padding: 10px;
+    background: #6c8cff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #4e6cf0;
+}
+</style>
+
+</head>
+
+<body>
+
+<div class="wrapper">
+
+    <!-- Alamat Toko -->
+    <div class="alamat">
+        <h2>Alamat Toko</h2>
+        <p><b>Nama Toko:</b> Toko Buku Attila</p>
+        <p><b>Alamat:</b> Jl. Melati No. 10, Surabaya</p>
+        <p><b>Telepon:</b> 0812-3456-7890</p>
+        <p><b>Email:</b> tokoattila@gmail.com</p>
+        <p>Kami menyediakan berbagai buku pelajaran, novel, dan alat tulis dengan harga terjangkau.</p>
+    </div>
+
+    <!-- Form Kontak -->
+    <div class="form">
+        <h2>Hubungi Kami</h2>
+
+        <form>
+            <input type="text" placeholder="Nama" required>
+            <input type="email" placeholder="Email" required>
+            <textarea rows="4" placeholder="Pesan" required></textarea>
+            <button type="submit">Kirim</button>
+        </form>
+    </div>
+
 </div>
 
-     <div class="map">
-<iframe src="https://maps.google.com/maps?q=surabaya&t=&z=13&ie=UTF8&iwloc=&output=embed"></iframe>
-</div>
+</body>
+</html>
 
 
      <footer>
