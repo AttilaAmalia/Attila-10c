@@ -27,117 +27,98 @@ scale=1.0">
 <title>Kontak</title>
 
 <style>
-
-body{
+body {
     font-family: Arial, sans-serif;
-    background:#f3f4f6;
-    margin:0;
+    background: #f4f6fb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
-.container{
-    width:80%;
-    margin:auto;
-    background:white;
-    padding:40px;
-    margin-top:40px;
-    border-radius:15px;
+/* Container utama */
+.container {
+    background: #fff;
+    padding: 25px 30px;
+    width: 350px; /* ukuran pas */
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
 }
 
-h1{
-    text-align:center;
-    margin-bottom:40px;
+/* Judul */
+.container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
 }
 
-.kontak{
-    display:flex;
-    justify-content:space-between;
-    gap:40px;
-    margin-bottom:40px;
+/* Label */
+label {
+    display: block;
+    margin-top: 10px;
+    font-size: 14px;
+    color: #555;
 }
 
-.info{
-    width:50%;
-    line-height:1.8;
+/* Input dan textarea */
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 14px;
 }
 
-.info b{
-    color:#1e73be;
+/* Fokus */
+input:focus, textarea:focus {
+    border-color: #6c8cff;
+    outline: none;
 }
 
-.wa{
-    display:inline-block;
-    margin-top:20px;
-    background:#25D366;
-    color:white;
-    padding:12px 20px;
-    border-radius:8px;
-    text-decoration:none;
+/* Tombol */
+button {
+    width: 100%;
+    margin-top: 15px;
+    padding: 10px;
+    border: none;
+    background: #6c8cff;
+    color: white;
+    border-radius: 8px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.3s;
 }
 
-.map{
-    width:50%;
+/* Hover */
+button:hover {
+    background: #4e6cf0;
 }
-
-iframe{
-    width:100%;
-    height:250px;
-    border-radius:10px;
-    border:none;
-}
-
-form{
-    margin-top:30px;
-}
-
-input, textarea{
-    width:100%;
-    padding:12px;
-    margin-top:10px;
-    margin-bottom:15px;
-    border-radius:10px;
-    border:1px solid #ddd;
-}
-
-button{
-    width:100%;
-    padding:14px;
-    background:#4f86c6;
-    color:white;
-    border:none;
-    border-radius:30px;
-    font-size:16px;
-}
-
 </style>
+
 </head>
 
- 
-
-</div>
-
-<form>
-
-<input type="text" placeholder="Nama Lengkap">
-
-<input type="email" placeholder="Email">
-
-<textarea rows="5" placeholder="Tulis pesan Anda..."></textarea>
-
-<button>Kirim Pesan</button>
-</form>
-</div>
-</body>
-</html>
-
-
-    
 <body>
 
 <div class="container">
+    <h2>Hubungi Kami</h2>
 
-<h1>Hubungi Kami</h1>
+    <form>
+        <label for="nama">Nama</label>
+        <input type="text" id="nama" name="nama" placeholder="Masukkan nama" required>
 
-<div class="kontak">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="Masukkan email" required>
+
+        <label for="pesan">Pesan</label>
+        <textarea id="pesan" name="pesan" rows="4" placeholder="Tulis pesan..." required></textarea>
+
+        <button type="submit">Kirim</button>
+    </form>
+</div>
+
+</body>
+</html>
 
 <div class="info">
 <p><b>Nama Toko:</b> Attila Bookstore</p>
@@ -154,7 +135,7 @@ button{
 
 
      <footer>
-    <p>&copy; 2025 Toko Buku Attila Amalia</p>
+    <p>&copy; 2026 Toko Buku Attila Amalia</p>
 </footer>
 
 
