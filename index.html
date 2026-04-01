@@ -34,6 +34,55 @@ buku, dan testimoni pelanggan.</p>
 </html>
 
 
+<h1>Selamat Datang di Celyta Corner!</h1>
+<p>Website ini berisi informasi tentang produk buku, bedah buku, dan testimoni pelanggan.</p>
+✨ Jadi seperti ini:
+<section class="hero">
+    <h1>Selamat Datang di Celyta Corner!</h1>
+    <p>Temukan berbagai buku menarik, bedah buku, dan testimoni pelanggan terbaik di sini ✨</p>
+</section>
+
+.hero {
+    text-align: center;
+    padding: 60px 20px;
+    background: linear-gradient(to bottom, #f6f4ff, #e6e0ff);
+    position: relative;
+}
+
+/* Judul */
+.hero h1 {
+    font-size: 38px;
+    color: #4a4a6a;
+    margin-bottom: 10px;
+}
+
+/* Deskripsi */
+.hero p {
+    font-size: 16px;
+    color: #666;
+}
+
+/* Hiasan bintang */
+.hero::before {
+    content: "✨ ✦ ✧ ✨";
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    opacity: 0.5;
+}
+
+.hero::after {
+    content: "✦ ✨ ✧";
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    opacity: 0.5;
+}
+
+background: linear-gradient(to bottom, #f5e6cc, #e8d3b0);
+
+
+
  <footer>
     <p>&copy; 2025 Toko Buku Attila Amalia</p>
 </footer>
