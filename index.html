@@ -34,66 +34,80 @@ buku, dan testimoni pelanggan.</p>
 </html>
 
 
-<h1>Selamat Datang di Celyta Corner!</h1>
-<p>Website ini berisi informasi tentang produk buku, bedah buku, dan testimoni pelanggan.</p>
-✨ Jadi seperti ini:
-<section class="hero">
-    <h1>Selamat Datang di Celyta Corner!</h1>
-    <p>Temukan berbagai buku menarik, bedah buku, dan testimoni pelanggan terbaik di sini ✨</p>
-</section>
 
-.hero {
+  /* BODY */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: linear-gradient(to bottom, #f5e6cc, #fff8ef);
+}
+
+/* NAVBAR BIAR RAPI */
+nav {
     text-align: center;
-    padding: 60px 20px;
-    background: linear-gradient(to bottom, #f6f4ff, #e6e0ff);
-    position: relative;
+    padding: 10px;
+    background: #e8d3b0;
 }
 
-/* Judul */
-.hero h1 {
-    font-size: 38px;
-    color: #4a4a6a;
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #5a3e2b;
+    font-weight: bold;
+}
+
+/* JUDUL UTAMA */
+h1 {
+    text-align: center;
+    background: #e8d3b0;
+    padding: 15px;
+    border-radius: 10px;
+    width: 80%;
+    margin: 20px auto;
+    color: #5a3e2b;
+}
+
+/* DESKRIPSI */
+h1 + p {
+    text-align: center;
+    max-width: 700px;
+    margin: auto;
+    color: #6b4f3a;
+}
+
+/* JUDUL KATEGORI */
+h2 {
+    text-align: center;
+    margin-top: 30px;
+    color: #5a3e2b;
+}
+
+/* PARAGRAF */
+p {
+    text-align: center;
+    max-width: 800px;
+    margin: 10px auto;
+}
+
+/* LIST */
+ul {
+    max-width: 800px;
+    margin: 20px auto;
+    padding-left: 20px;
+}
+
+/* ITEM LIST */
+li {
     margin-bottom: 10px;
+    line-height: 1.6;
 }
 
-/* Deskripsi */
-.hero p {
-    font-size: 16px;
-    color: #666;
+/* FOOTER */
+footer {
+    text-align: center;
+    margin-top: 30px;
+    padding: 15px;
+    background: #e8d3b0;
 }
-
-/* Hiasan bintang */
-.hero::before {
-    content: "✨ ✦ ✧ ✨";
-    position: absolute;
-    top: 20px;
-    left: 20px;
-    opacity: 0.5;
-}
-
-.hero::after {
-    content: "✦ ✨ ✧";
-    position: absolute;
-    bottom: 20px;
-    right: 20px;
-    opacity: 0.5;
-}
-
-background: linear-gradient(to bottom, #f5e6cc, #e8d3b0);
-
-
-
- <footer>
-    <p>&copy; 2025 Toko Buku Attila Amalia</p>
-</footer>
-
-
-
-
-
-
-
-
-
 
 
